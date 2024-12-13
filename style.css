@@ -20,7 +20,8 @@
   font-family: fantasy, cursive;
 }
 
-.todo-app__title {
+.todo-app__title,
+.todo-app__section-title_type_hidden {
   display: none;
 }
 
