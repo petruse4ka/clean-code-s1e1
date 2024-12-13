@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info__preview {
   width: 100%;
 }
+
 .info__link {
   font-family: fantasy, cursive;
 }
@@ -26,11 +29,13 @@
     text-align: center;
   }
 }
+
 .todo-app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo-app__input_type_add,
 .todo-app__task-label,
 .todo-app__input_type_edit {
@@ -38,24 +43,29 @@
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo-app__input-wrapper {
   display: flex;
 }
+
 #todo-tasks,
 #completed-tasks {
   margin: 0;
   padding: 0px;
 }
+
 .todo-app__item, 
 .todo-app__section-title {
   list-style: none;
 }
+
 .todo-app__input_type_complete,
 .todo-app__input_type_edit,
 .todo-app__input_type_add,
 .todo-app__button{
   outline: none;
 }
+
 .todo-app__button {
   background: none;
   border: 0px;
@@ -65,9 +75,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .todo-app__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo-app__section-title,
 .todo-app__add-label {
@@ -79,6 +91,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo-app__input_type_add,
 .todo-app__input_type_edit {
   margin: 0;
@@ -92,6 +105,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .todo-app__input_type_add:focus,
 .todo-app__input_type_edit:focus {
   color: #333;
@@ -102,6 +116,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .todo-app__input_type_add {
   width: 318px;
 }
@@ -115,6 +130,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-app__item > .todo-app__input_type_complete,
 .todo-app__item > .todo-app__task-label,
 .todo-app__item > .todo-app__input_type_edit,
@@ -125,20 +141,24 @@
 .todo-app__input_type_complete {
   margin: 0 10px;
 }
+
 .todo-app__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .todo-app__input_type_edit {
   width: 226px;
 }
+
 .todo-app__cross-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .todo-app__cross-icon:hover {
   transform: rotateZ(0);
 }
